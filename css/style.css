@@ -1,0 +1,176 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.container-navbar {
+    background-color: #333;
+    width: 100%;
+    height: 100px;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar { 
+    margin: 5px;
+    list-style-type: none;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+.li-navbar:hover {
+    background-color: orange;
+    transition: .2s ease-in-out;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.container-content {
+    background-color: orange;
+    display: flex;
+    justify-content: left;
+    height: 100vh;
+}
+
+.img-content {
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 2%;
+    width: 10cm;
+    height: 7cm;
+}
+
+.ul-content {
+    width: 100%;
+    height: 310px;
+}
+
+.li-content {
+    background-color: white;
+    margin-top: 2cm;
+    margin-left: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    height: fit-content;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.h1-content {
+    margin-left: 20px;
+}
+
+.p-content {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 35px;
+}
+
+.container-footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    padding: 10px;
+    margin-inline-start: 2cm;
+    margin-inline-end: 2cm;
+    color:dimgrey
+}
+
+.about-content {
+    background-color: orange;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+}
+
+.img-about {
+    margin-top: 3px;
+    margin-right: 2%;
+    width: 10cm;
+    height: 7cm;
+}
+
+.ul-about {
+    margin-bottom: 0%;
+    height: 300px;
+}
+
+.li-about {
+    background-color: #333;
+    color: white;
+    border-radius: 7px;
+    padding: 3px;
+    height: flex-content;
+    width: 45%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.h1-about {
+    margin-left: 20px;
+}
+
+.p-about {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 35px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background: #ff9100;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: rgb(252, 187, 66);
+}
